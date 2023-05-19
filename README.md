@@ -32,43 +32,43 @@ A comunicação entre os componentes é feita através de requisições HTTP.
 
 <h2>Endpoints</h2> 
 
-1. Enviar mensagem
-Endpoint: /hearmeout/messages/send
-Verbo HTTP: POST
+1. Enviar mensagem<br/>
+Endpoint: /hearmeout/messages/send<br/>
+Verbo HTTP: POST<br/>
 
 Parâmetros:
-•	user_id: ID do usuário que envia a mensagem (string, obrigatório)
-•	message: Texto da mensagem enviada pelo usuário (string, obrigatório)
+•	user_id: ID do usuário que envia a mensagem (string, obrigatório)<br/>
+•	message: Texto da mensagem enviada pelo usuário (string, obrigatório)<br/>
 
 Respostas:
-•	200 OK: Mensagem enviada com sucesso.
-•	400 Bad Request: Parâmetros ausentes.
-•	500 Internal Server Error: Erro no processamento da mensagem.
+•	200 OK: Mensagem enviada com sucesso.<br/>
+•	400 Bad Request: Parâmetros ausentes.<br/>
+•	500 Internal Server Error: Erro no processamento da mensagem.<br/>
 
-2. Obter histórico de mensagens
-Endpoint: /hearmeout/messages/history
-Verbo HTTP: GET
+2. Obter histórico de mensagens<br/>
+Endpoint: /hearmeout/messages/history<br/>
+Verbo HTTP: GET<br/>
 
-Parâmetros:
-•	user_id: ID do usuário para o qual o histórico de mensagens será retornado (string, obrigatório)
+Parâmetros:<br/>
+•	user_id: ID do usuário para o qual o histórico de mensagens será retornado (string, obrigatório)<br/>
 
-Respostas:
-•	200 OK: Histórico de mensagens obtido com sucesso.
-•	400 Bad Request: Parâmetros ausentes.
-•	500 Internal Server Error: Erro ao recuperar o histórico de mensagens.
+Respostas:<br/>
+•	200 OK: Histórico de mensagens obtido com sucesso.<br/>
+•	400 Bad Request: Parâmetros ausentes.<br/>
+•	500 Internal Server Error: Erro ao recuperar o histórico de mensagens.<br/>
 
-3. Ativar/Desativar funcionalidade de voz
-Endpoint: / hearmeout /voice/toggle
-Verbo HTTP: PUT
+3. Ativar/Desativar funcionalidade de voz<br/>
+Endpoint: / hearmeout /voice/toggle<br/>
+Verbo HTTP: PUT<br/>
 
 Parâmetros:
 •	user_id: ID do usuário que deseja ativar/desativar a funcionalidade de voz (string, obrigatório)
 •	enabled: Estado da funcionalidade de voz (boolean, obrigatório)
 
-Respostas:
-•	200 OK: Funcionalidade de voz ativada/desativada com sucesso.
-•	400 Bad Request: Parâmetros ausentes.
-•	500 Internal Server Error: Erro ao alternar a funcionalidade de voz.
+Respostas:<br/>
+•	200 OK: Funcionalidade de voz ativada/desativada com sucesso.<br/>
+•	400 Bad Request: Parâmetros ausentes.<br/>
+•	500 Internal Server Error: Erro ao alternar a funcionalidade de voz.<br/>
 
 
 
