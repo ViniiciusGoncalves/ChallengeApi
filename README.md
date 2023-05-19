@@ -30,4 +30,46 @@ Cloud e gerar uma resposta adequada utilizando a API do GPT-3.
 A comunicação entre os componentes é feita através de requisições HTTP.
 
 
+<h2>Endpoints</h2> 
+
+1. Enviar mensagem
+Endpoint: /hearmeout/messages/send
+Verbo HTTP: POST
+
+Parâmetros:
+•	user_id: ID do usuário que envia a mensagem (string, obrigatório)
+•	message: Texto da mensagem enviada pelo usuário (string, obrigatório)
+
+Respostas:
+•	200 OK: Mensagem enviada com sucesso.
+•	400 Bad Request: Parâmetros ausentes.
+•	500 Internal Server Error: Erro no processamento da mensagem.
+
+2. Obter histórico de mensagens
+Endpoint: /hearmeout/messages/history
+Verbo HTTP: GET
+
+Parâmetros:
+•	user_id: ID do usuário para o qual o histórico de mensagens será retornado (string, obrigatório)
+
+Respostas:
+•	200 OK: Histórico de mensagens obtido com sucesso.
+•	400 Bad Request: Parâmetros ausentes.
+•	500 Internal Server Error: Erro ao recuperar o histórico de mensagens.
+
+3. Ativar/Desativar funcionalidade de voz
+Endpoint: / hearmeout /voice/toggle
+Verbo HTTP: PUT
+
+Parâmetros:
+•	user_id: ID do usuário que deseja ativar/desativar a funcionalidade de voz (string, obrigatório)
+•	enabled: Estado da funcionalidade de voz (boolean, obrigatório)
+
+Respostas:
+•	200 OK: Funcionalidade de voz ativada/desativada com sucesso.
+•	400 Bad Request: Parâmetros ausentes.
+•	500 Internal Server Error: Erro ao alternar a funcionalidade de voz.
+
+
+
 
