@@ -70,7 +70,7 @@ Respostas:<br/>
 •	400 Bad Request: Parâmetros ausentes.<br/>
 •	500 Internal Server Error: Erro ao alternar a funcionalidade de voz.<br/>
 
-<h2>Próximos Passos<h2/>
+<h2>Próximos Passos</h2>
   
   <ul>
     <li>Implementar a lógica de conversão de áudio em texto usando o Google Cloud Speech-to-Text.</li>
