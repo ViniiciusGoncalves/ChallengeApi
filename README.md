@@ -70,6 +70,25 @@ Respostas:<br/>
 •	400 Bad Request: Parâmetros ausentes.<br/>
 •	500 Internal Server Error: Erro ao alternar a funcionalidade de voz.<br/>
 
-
+<h2>Próximos Passos<h2/>
+  
+  <ul>
+    <li>Implementar a lógica de conversão de áudio em texto usando o Google Cloud Speech-to-Text.</li>
+    <li>Criar a interface do cliente na web para melhorar a experiência do usuário.</li>
+  </ul>
+  
+  
+<h2>Participantes do grupo</h2>
+  
+  
+  <ul>
+    <li>GUILHERME HENRIQUE MELO DE OLIVEIRA – RM: 95184</li>
+    <li>GUILHERME LUCAS ARTIGIANI – RM: 94322</li>
+    <li>LUCAS VINICIUS OLIVEIRA GALINDO – RM: 95177</li>
+    <li>MARCUS VINICIUS DAGOSTINI – RM: 94279</li>
+    <li>THIAGO RIBEIRO DA COSTA – RM: 92800</li>
+    <li>VINICIUS GONÇALVES CARNEIRO – RM: 94154</li>
+    <li>TURMA - 2TDST</li>
+  </ul>
 
 
