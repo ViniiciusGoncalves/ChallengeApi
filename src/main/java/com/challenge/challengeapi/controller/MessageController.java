@@ -27,7 +27,7 @@ public class MessageController {
         try {
             messageService.sendMessage(message.getUserId(), message.getText());
 
-            OpenAiService service = new OpenAiService("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");
+            OpenAiService service = new OpenAiService("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");
             CompletionRequest completionRequest = CompletionRequest.builder()
                     .prompt(message.getText())
                     .model("ada")
