@@ -74,7 +74,6 @@ Respostas:<br/>
   
   <ul>
     <li>Implementar a lógica de conversão de áudio em texto usando o Google Cloud Speech-to-Text.</li>
-    <li>Criar a interface do cliente na web para melhorar a experiência do usuário.</li>
   </ul>
 
 <h2>Link do video apresentando o nosso projeto</h2>
