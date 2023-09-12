@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://127.0.0.1:5173/", maxAge = 5173)
 @RestController
 @RequestMapping("/hearmeout/messages")
 public class MessageController {
@@ -23,11 +24,12 @@ public class MessageController {
     }
 
     @PostMapping("/send")
+    @CrossOrigin
     public ResponseEntity<String> sendMessage(@RequestBody Message message) {
         try {
             messageService.sendMessage(message.getUserId(), message.getText());
 
-            OpenAiService service = new OpenAiService("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");
+            OpenAiService service = new OpenAiService("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");
             CompletionRequest completionRequest = CompletionRequest.builder()
                     .prompt(message.getText())
                     .model("ada")
@@ -46,13 +48,15 @@ public class MessageController {
             message.setResponse(response);
             messageService.saveMessage(message);
 
-            return ResponseEntity.ok("Mensagem enviada com sucesso.");
+            // Retorna a mensagem retornada pelo GPT-3 no corpo da resposta
+            return ResponseEntity.ok(response);
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Erro na mensagem");
         }
     }
 
     @GetMapping("/history")
+    @CrossOrigin
     public ResponseEntity<List<Message>> getMessageHistory(@RequestBody UserIdRequest request) {
         try {
             List<Message> history = messageService.getMessageHistory(request.getUserId());
