@@ -80,6 +80,8 @@ Respostas:<br/>
 <ul>
   <li>https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves</li>
   <li>https://github.com/ViniiciusGoncalves/Plusoft-Front-End/tree/main/frontend</li>
+  <li>repositorio mobile: https://github.com/ViniiciusGoncalves/challenge_mobile</li>
+  <li>Video Mobile: https://www.youtube.com/watch?v=oRz7q8m7LDY</li>
 </ul>
   
   
