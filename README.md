@@ -76,7 +76,7 @@ Respostas:<br/>
     <li>Implementar a lógica de conversão de áudio em texto usando o Google Cloud Speech-to-Text.</li>
   </ul>
 
-<h2>Link do video apresentando o nosso projeto e do front-end</h2>
+<h2>Link dos videos apresentando o nosso projeto para front-end e mobile</h2>
 <ul>
   <li>Video Front-End: https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves</li>
   <li>Repositorio Front-end: https://github.com/ViniiciusGoncalves/Plusoft-Front-End/tree/main/frontend</li>
