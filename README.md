@@ -78,9 +78,9 @@ Respostas:<br/>
 
 <h2>Link do video apresentando o nosso projeto e do front-end</h2>
 <ul>
-  <li>https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves</li>
-  <li>https://github.com/ViniiciusGoncalves/Plusoft-Front-End/tree/main/frontend</li>
-  <li>repositorio mobile: https://github.com/ViniiciusGoncalves/challenge_mobile</li>
+  <li>Video Front-End: https://www.youtube.com/watch?v=so5-6eabd4o&ab_channel=ViniciusGon%C3%A7alves</li>
+  <li>Repositorio Front-end: https://github.com/ViniiciusGoncalves/Plusoft-Front-End/tree/main/frontend</li>
+  <li>Repositorio mobile: https://github.com/ViniiciusGoncalves/challenge_mobile</li>
   <li>Video Mobile: https://www.youtube.com/watch?v=oRz7q8m7LDY</li>
 </ul>
   
